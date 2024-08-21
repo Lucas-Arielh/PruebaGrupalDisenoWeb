@@ -4,101 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motos con Motores 2T</title>
-    <style>
+    <style>        
+        
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #444;
-            color: #fff;
+            background-color: #333;
+            color: white;
             padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #555;
-            color: #fff;
-            padding: 15px;
+            background-color: #444;
+            color: white;
+            padding: 10px;
             text-align: center;
         }
         nav a {
-            color: #fff;
-            margin: 0 10px;
+            color: white;
+            margin: 0 15px;
             text-decoration: none;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
         .container {
-            max-width: 1200px;
-            margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+        }
+        .bike-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #555;
-        }
-        .moto {
-            display: flex;
-            margin-bottom: 20px;
-        }
-        .moto img {
-            width: 300px;
-            height: auto;
+        .bike-section img {
+            max-width: 200px;
             margin-right: 20px;
-            border-radius: 8px;
-        }
-        .moto-info {
-            flex: 1;
+            border-radius: 5px;
         }
         footer {
-            background-color: #444;
-            color: #fff;
+            background-color: #333;
+            color: white;
             text-align: center;
             padding: 10px 0;
-            margin-top: 20px;
+            margin-top: auto;
+            width: 100%;
         }
+        
     </style>
 </head>
 <body>
     
 <header>
-    <h1>Motos con Motores de 2 Tiempos</h1>
-    <p>Descubre algunas de las motocicletas más icónicas con motores 2T.</p>
+    <h1>Motos 2T Legendarias</h1>
+    <p>Una selección de las mejores motos con motores 2 tiempos</p>
 </header>
 
 <nav>
     <a href="#yamaha">Yamaha TZR 125</a>
     <a href="#suzuki">Suzuki RG 150 Gamma</a>
-    <a href="#kawasaki">Kawasaki KX 250</a>
+    <a href="#kawasaki-cyclone">Kawasaki Cyclone 150cc</a>
+    <a href="#honda-nsr">Honda NSR 150cc RR</a>
+    <a href="#kawasaki-serpico">Kawasaki Serpico</a>
 </nav>
 
 <div class="container">
-    <section id="yamaha" class="moto">
-        <img src="yamaha-tzr-125.jpg" alt="Yamaha TZR 125">
-        <div class="moto-info">
+    <section id="yamaha" class="bike-section">
+        <img src="./img/yamaha-tzr125.jpg" alt="Yamaha TZR 125">
+        <div>
             <h2>Yamaha TZR 125</h2>
-            <p>La Yamaha TZR 125 es una de las motocicletas más conocidas de su época. Equipado con un motor de 2 tiempos, este modelo destacó por su ligereza y maniobrabilidad, lo que la convirtió en una opción popular entre los jóvenes motociclistas.</p>
+            <p>La Yamaha TZR 125 es una moto deportiva con un motor de 2 tiempos, conocida por su manejo ágil y su capacidad para alcanzar altas revoluciones. Es una de las favoritas entre los entusiastas de las motos de 2 tiempos debido a su combinación de rendimiento y estilo clásico.</p>
         </div>
     </section>
 
-    <section id="suzuki" class="moto">
-        <img src="suzuki-rg-150-gamma.jpg" alt="Suzuki RG 150 Gamma">
-        <div class="moto-info">
+    <section id="suzuki" class="bike-section">
+        <img src="./img/suzuki-rg150.jpg" alt="Suzuki RG 150 Gamma">
+        <div>
             <h2>Suzuki RG 150 Gamma</h2>
-            <p>La Suzuki RG 150 Gamma es una motocicleta de alto rendimiento diseñada para los entusiastas de la velocidad. Su motor 2T le otorgaba una aceleración rápida y una velocidad máxima impresionante para su cilindrada.</p>
+            <p>La Suzuki RG 150 Gamma es una moto ligera y rápida con un motor de 2 tiempos que destaca en el mundo de las carreras. Con su diseño aerodinámico y su potente motor, es una opción popular para los pilotos que buscan velocidad y maniobrabilidad en una máquina compacta.</p>
         </div>
     </section>
 
-    <section id="kawasaki" class="moto">
-        <img src="kawasaki-kx-250.jpg" alt="Kawasaki KX 250">
-        <div class="moto-info">
-            <h2>Kawasaki KX 250</h2>
-            <p>La Kawasaki KX 250 es una legendaria moto de motocross que ha sido un referente en las competiciones off-road. Con su potente motor de 2 tiempos, esta moto ofrecía una respuesta rápida del acelerador y una excelente relación potencia-peso, lo que la hacía ideal para el motocross y el enduro.</p>
+    <section id="kawasaki-cyclone" class="bike-section">
+        <img src="./img/kawasaki-cyclone150.jpg" alt="Kawasaki Cyclone 150cc">
+        <div>
+            <h2>Kawasaki Cyclone 150cc</h2>
+            <p>La Kawasaki Cyclone 150cc es una moto de calle con un motor de 2 tiempos que ofrece una excelente relación potencia-peso. Su diseño robusto y su rendimiento fiable la convierten en una opción ideal tanto para pilotos urbanos como para quienes buscan una máquina divertida para paseos de fin de semana.</p>
+        </div>
+    </section>
+
+    <section id="honda-nsr" class="bike-section">
+        <img src="./img/honda-nsr150.jpg" alt="Honda NSR 150cc RR">
+        <div>
+            <h2>Honda NSR 150cc RR</h2>
+            <p>La Honda NSR 150cc RR es una moto deportiva con un motor de 2 tiempos que ha ganado popularidad entre los entusiastas de las motos por su rendimiento excepcional y su diseño agresivo. Es conocida por su capacidad para alcanzar altas velocidades y su manejo preciso.</p>
+        </div>
+    </section>
+
+    <section id="kawasaki-serpico" class="bike-section">
+        <img src="./img/kawasaki-serpico.jpg" alt="Kawasaki Serpico">
+        <div>
+            <h2>Kawasaki Serpico</h2>
+            <p>La Kawasaki Serpico es una moto de alto rendimiento con un motor de 2 tiempos que ha sido un ícono entre las motos deportivas. Su potente aceleración y su diseño llamativo la hacen destacar en cualquier carretera.</p>
         </div>
     </section>
 </div>
